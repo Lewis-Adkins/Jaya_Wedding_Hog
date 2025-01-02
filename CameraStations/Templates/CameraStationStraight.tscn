@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ciyr01bwy4vuh"]
+
+[node name="CameraStationStraight" type="Node3D"]
+
+[node name="StraightStartPosition" type="Node3D" parent="."]
+
+[node name="StraightEndPosition" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.6295)

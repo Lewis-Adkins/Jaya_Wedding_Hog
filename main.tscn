@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgtyxymnab2br"]
+
+[ext_resource type="PackedScene" uid="uid://16q1lrdlaxe4" path="res://Player/Player.tscn" id="1_3m2aa"]
+[ext_resource type="PackedScene" uid="uid://ciyr01bwy4vuh" path="res://CameraStations/Templates/CameraStationStraight.tscn" id="2_rnuv5"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_2sntd"]
+
+[node name="Main" type="Node3D"]
+
+[node name="TestMesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.972, 0, 0, 0, -0.81663, -2.95281, 0, 4.93286, -0.488835, -2.04052, 0, -2.16933)
+mesh = SubResource("CylinderMesh_2sntd")
+
+[node name="Player" parent="." instance=ExtResource("1_3m2aa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.90979, 1.99562)
+
+[node name="StartAreaNode" parent="." instance=ExtResource("2_rnuv5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.68882)
