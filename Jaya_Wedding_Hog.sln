@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaya_Wedding_Hog", "Jaya_Wedding_Hog.csproj", "{965A33F5-361D-47DB-8514-2FB2363CF5C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaya_Wedding_Hog", "Jaya_Wedding_Hog.csproj", "{21A2CFDC-5EA4-4153-A82C-A5AEC964FB01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,11 +9,11 @@ Global
 	ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{965A33F5-361D-47DB-8514-2FB2363CF5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{965A33F5-361D-47DB-8514-2FB2363CF5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{965A33F5-361D-47DB-8514-2FB2363CF5C2}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
-		{965A33F5-361D-47DB-8514-2FB2363CF5C2}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
-		{965A33F5-361D-47DB-8514-2FB2363CF5C2}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
-		{965A33F5-361D-47DB-8514-2FB2363CF5C2}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{21A2CFDC-5EA4-4153-A82C-A5AEC964FB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A2CFDC-5EA4-4153-A82C-A5AEC964FB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A2CFDC-5EA4-4153-A82C-A5AEC964FB01}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{21A2CFDC-5EA4-4153-A82C-A5AEC964FB01}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{21A2CFDC-5EA4-4153-A82C-A5AEC964FB01}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{21A2CFDC-5EA4-4153-A82C-A5AEC964FB01}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
 	EndGlobalSection
 EndGlobal
