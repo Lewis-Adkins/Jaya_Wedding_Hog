@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqp45w8773fr8"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_l5fhd"]
+
+[node name="Player" type="Node3D"]
+
+[node name="PlayerCamera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.14709, 0)
+
+[node name="PlayerBody" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_l5fhd")
+skeleton = NodePath("../PlayerCamera")

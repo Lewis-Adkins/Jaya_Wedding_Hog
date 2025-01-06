@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://br53h0vy57taa"]
+
+[ext_resource type="PackedScene" uid="uid://ktdsb2hx1y6t" path="res://Stages/Room0/Room0.tscn" id="1_2bo0k"]
+[ext_resource type="PackedScene" uid="uid://dqp45w8773fr8" path="res://Entities/Player/Player.tscn" id="2_efb5k"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Room0" parent="." instance=ExtResource("1_2bo0k")]
+
+[node name="Player" parent="." instance=ExtResource("2_efb5k")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)

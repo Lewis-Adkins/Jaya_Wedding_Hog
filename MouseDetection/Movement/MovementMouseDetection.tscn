@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://brfrmo7hg4j6k"]
+
+[ext_resource type="Script" path="res://MouseDetection/Movement/MovementMouseCollision.cs" id="1_pjytu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_phv1x"]
+
+[node name="MovementMouseNode" type="Node3D"]
+
+[node name="MovementMouseArea" type="Area3D" parent="."]
+
+[node name="MovementMouseCollision" type="CollisionShape3D" parent="MovementMouseArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, 0, 0, 0)
+shape = SubResource("BoxShape3D_phv1x")
+script = ExtResource("1_pjytu")

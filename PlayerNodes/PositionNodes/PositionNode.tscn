@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxpppveg85opa"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cnyen"]
+albedo_color = Color(0.0675856, 0.364066, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_tangm"]
+material = SubResource("StandardMaterial3D_cnyen")
+size = Vector3(0.5, 0.5, 0.5)
+
+[node name="PositionNodes" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_tangm")
